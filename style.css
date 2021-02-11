@@ -15,7 +15,7 @@ html {
 }
 
 body {
-  position: relative;
+  position: absolute;
   min-height: 100%;
   padding-bottom: 6em;
   box-sizing: border-box;
@@ -77,6 +77,10 @@ h4 {
 header {
   margin: 2em 4em;
 }
+.action-banner + header {
+  margin: 4em 4em 2em 4em;
+}
+
 
 header > p {
   margin: 0 20%;
@@ -192,6 +196,20 @@ i.rose::before {
   margin: 0 auto;
 }
 
+.action-banner {
+  color: white;
+  background-color: #EC1F27;
+  text-align: center;
+  width: 100%;
+  margin: 0;
+  position: absolute;
+  top: 0;
+  font-size: 1.6em;
+  padding-bottom: .5em;
+  padding-top: .5em;
+  vertical-align: center;
+}
+
 @media screen and (max-width: 640px) {
   .container {
     flex-direction: column;
@@ -215,6 +233,9 @@ i.rose::before {
     order: 3;
   }
 
+  .action-banner + header {
+    margin-top: 5em;
+  }
   header > p {
     margin: 0 -10%;
   }

@@ -21,6 +21,7 @@ body {
   box-sizing: border-box;
   font-family: "Manifold DSA Regular", Sans-Serif;
   color: #231F20;
+  min-width: 100%;
 }
 
 input, button, textarea, select {
@@ -60,10 +61,12 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
   font-size: 3em;
+  color: black;
 }
 
 h2 {
   font-size: 2.2em;
+  color: black;
 }
 
 h3 {

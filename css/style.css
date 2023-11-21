@@ -1,13 +1,13 @@
 @font-face {
   font-family: "Manifold DSA Regular";
-  src: url("/fonts/Webfont/ManifoldDSA-Regular.woff2") format("woff2"),
-       url("/fonts/Webfont/ManifoldDSA-Regular.woff") format("woff");
+  src: url("../fonts/Webfont/ManifoldDSA-Regular.woff2") format("woff2"),
+       url("../fonts/Webfont/ManifoldDSA-Regular.woff") format("woff");
 }
 
 @font-face {
   font-family: "Manifold DSA Bold";
-  src: url("/fonts/Webfont/ManifoldDSA-Bold.woff2") format("woff2"),
-       url("/fonts/Webfont/ManifoldDSA-Bold.woff") format("woff");
+  src: url("../fonts/Webfont/ManifoldDSA-Bold.woff2") format("woff2"),
+       url("../fonts/Webfont/ManifoldDSA-Bold.woff") format("woff");
 }
 
 html {

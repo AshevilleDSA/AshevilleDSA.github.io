@@ -1,0 +1,11 @@
+@media screen and (max-width: 767px) {
+  .desktop-calendar-container {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .mobile-calendar-container {
+    display: none;
+  }
+}
